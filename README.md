@@ -4,7 +4,7 @@ recorded sessions
 _____
 ### Day1(24-aug-2020)
 ##### Day1 Content:
-_____
+
 - 1.Introduction 
 - 2.Environmental set up(Python setup)
 - 3.Django introduction:
