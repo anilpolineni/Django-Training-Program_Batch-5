@@ -1,6 +1,5 @@
 # Django-Training-Program_Batch-5
 Django-Training-Program
-recorded sessions
 _____
 ### Day1(24-aug-2020)
 ##### Day1 Content:
