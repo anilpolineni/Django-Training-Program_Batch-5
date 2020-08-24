@@ -1,0 +1,102 @@
+https://github.com/anilpolineni/Django-Training-Program_Batch-5
+
+GoodMorning to all(Day1):
+===========================
+
+Total Days--->18
+
+day---------->2 hr
+
+maintain----->75% attendance
+
+exam--------->end of the day MCQ(30)
+
+your name like--->roll+name+college
+
+Today Objectives:
+==================
+
+-->Python setup
+-->Django introduction:
+
+* python web frameworks:
+........................
+Django:
+.......
+* django frame is based on MVT architecture
+*MVT MODEL view template
+*open source
+*less time to build application after collectiing the client requirements
+*very fast
+*fully loaded
+*secure
+*scalable
+
+Flask
+web2py
+bottle
+cherrypy
+....
+
+
+
+-->MVC-MVT Architectures
+=========================
+Mvc architecture:
+=================
+
+
+
+view(html)<....>controller(interface)<....>model(database..>tabkle)
+					url..www.signin.com
+					html..signin.html
+					...controller....
+					.....model.....(db)..checks if the maild id is valid or not(existing or not)
+					....existing mail id...backs to controller...
+
+
+					html
+
+
+
+
+model:it contains entire Db part
+
+view:it contains all html part
+
+controller:interface b/c model and view
+
+
+MVT architecture:
+==================
+
+model:db files
+
+url:url...>views
+
+view:interface(logics)
+
+template:it contains all html files
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->Django installation.:
+========================
+
+
+
+
+oops:
+======
+
+
