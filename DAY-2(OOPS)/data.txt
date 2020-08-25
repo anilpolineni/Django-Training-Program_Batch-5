@@ -1,0 +1,68 @@
+Good Morning To All
+--------------------
+
+ToDay Agenda
+-------------
+
+OOPS:Object Oriented Programming in python
+
+. Class
+   class and objects  are the two main ascepts of object 
+   oriented programming
+	
+ class is a collecton of variable and methods
+	
+ how to define class in python
+
+synatx
+------
+class class_name:
+	variables
+	methods
+
+how to call class
+
+
+format specifiers
+
+%d,%s,%f,%c
+
+format mathod
+
+classname.varbalename
+classname.methodname
+
+
+. Object
+
+object is an instant of a class
+
+syntax:
+
+obj=classname
+
+. Constructor
+
+constructor is a special type of method(function) which is used to initlize the 
+
+instance member of the class
+
+two types of constructors
+1.non-parameterised constructor
+2.parameterised constructor
+
+syntax of constructor
+
+class class_name:
+	def __init__(self): # name,abc,
+
+calling constructor
+-------------------
+objectname=classname()
+objectname.methodname()
+
+
+
+
+
+ 
