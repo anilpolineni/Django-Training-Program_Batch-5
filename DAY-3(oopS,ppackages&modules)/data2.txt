@@ -1,0 +1,94 @@
+GoodMorning To All
+------------------
+
+ToDay Agenda
+=============
+
+Inheritance
+------------
+.in inheritance is a powerful object oriented programming in python
+.The technique of creating a newclass from an existing class is 
+called inhertance
+. the old class is called the baseclass or parent class
+. new class is called derived class or child class or subclass
+
+syntax of inheritance
+
+class baseclass:
+	body of baseclass
+
+class derivedclass(baseclass):
+	bodyof derivedclass
+
+In heritance we have few types
+
+.Siglelevel inheritance
+	in singlelevel inheritance a class can be derived from a 
+	single baseclass
+
+class baseclass:
+  statements
+
+class derivedclass(baseclass)
+   statements
+
+obj=derivedclass
+obj.var
+obj.methodname
+
+.multiple inheritance
+when a derived class inherites features from more than one baseclass
+is called multiple inheritance
+
+multiple inheritance syntax
+
+class baseclass1:
+	statements
+
+class basecalss2"
+     statements
+
+class derivedclass(baseclass1,baseclass2,...baseclassn):
+	stements
+
+.multilevel inheritance
+
+the technique of deriving a class from an already derived class
+is called multivel inheritance
+
+syntax 
+
+class baseclass:
+	statements
+
+class derived class1(baseclass):
+    statements
+
+class derived class2(derivedclass1):
+	statements
+
+Packages&Modules
+
+package is a collection of modules
+
+module is a collection of functions or class
+
+from packages import math
+
+from packages import *
+
+import math
+
+from pacakes import math as m
+
+from packages.math import *
+
+
+
+
+
+
+
+
+
+
