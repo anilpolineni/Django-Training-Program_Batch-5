@@ -21,3 +21,13 @@ _____
 
 > **_NOTE:_** Videos are Expired after Two Days
 [Recorded video link](https://transcripts.gotomeeting.com/#/s/ddb4eea41220400ac23b77053b1b5561d08917f5a2decf0b64fc4e714141d508)
+
+_____
+### Day3(26-aug-2020)
+##### Day3 Content:
+
+- 1.OOPS
+- 3.In-heritance,Packages&Modules
+
+> **_NOTE:_** Videos are Expired after Two Days
+[Recorded video link](https://transcripts.gotomeeting.com/#/s/635d9c774eccbacb5271eb9fcfd07b069cb61654231ade216203dfb66386dcc7)
