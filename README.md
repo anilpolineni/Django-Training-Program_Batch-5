@@ -44,3 +44,13 @@ _____
 > **_NOTE:_** Videos are Expired after Two Days
 [Recorded video link](https://transcripts.gotomeeting.com/#/s/1a98a821a62fb0588e33bf99f5d40f21f433f56a3d1762836895633cca594fcd)
 
+### Day5(28-aug-2020)
+##### Day5 Content:
+
+- 1.HttpRequest & HttpResponse
+- 2.templates
+- 3.Html
+
+> **_NOTE:_** Videos are Expired after Two Days
+[Recorded video link](https://transcripts.gotomeeting.com/#/s/1f190d7eb1a8365f8e7a73598e36bf9da1e46e50625d1b3083f9a6758d037b7d)
+
