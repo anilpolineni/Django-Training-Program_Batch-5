@@ -72,6 +72,7 @@ _____
 - 1.Navbar
 - 2.Models creation
 - 3.Admin modules
+- 4.super user creation
 
 > **_NOTE:_** Videos are Expired after Two Days
 [Recorded video link](https://transcripts.gotomeeting.com/#/s/d824a55eddec4211cbc9427374538b4d6e5453d925ea985d9cb308615f3ccce9)
