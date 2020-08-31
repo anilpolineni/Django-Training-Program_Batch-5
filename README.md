@@ -64,3 +64,9 @@ _____
 > **_NOTE:_** Videos are Expired after Two Days
 [Recorded video link](https://transcripts.gotomeeting.com/#/s/92eb3a1621152d6aa2f5b40f8cc356b04a611ebe4e96cf367b4bd9bef2e4a2c9)
 
+##### Day7 Content:
+
+- 1.Navbar
+- 2.Models creation
+- 3.Admin modules
+
