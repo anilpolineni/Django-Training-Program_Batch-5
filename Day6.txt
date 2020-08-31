@@ -1,0 +1,19 @@
+Good morning to all(Day6):
+==========================
+
+* Css:
+	-->inline:
+	<h1 style="">APSSDC</h1>
+	-->internal
+	*-->external
+
+
+
+* static files handling:
+=========================
+app>static>images
+		  >js
+		  >css
+		  >jq
+
+

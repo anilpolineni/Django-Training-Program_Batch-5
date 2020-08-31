@@ -1,0 +1,101 @@
+Goodmorning to all(Day5):
+==========================
+
+* Httprequests and Httpresponse
+
+-->Httprequests:
+     two different methods..1)GET
+     						2)POST
+
+     * if user sends request from url get
+     * if the user request is coming from html form POST
+-->HttpResponses:
+
+	based on user request it will give the response
+
+* Templates
+============
+
+ * .html
+ * conditional
+   if cond:
+   		statements...
+
+   {% if condi %}
+
+   statements......
+   {% else %}
+
+   {% endif %}
+
+
+ * {% for i in range(1,10) %}
+
+
+
+
+ 	{% endfor %}
+
+.py
+for i in range(1,3):
+	statements...
+
+
+
+
+
+
+* Html,css,js,Bootstrap,crud
+=============================
+html:
+======
+<html>
+<head>
+ external sources
+</head>
+<body>
+   total view part
+</body>
+</html
+
+
+tags  <tags>
+
+<html>
+<body>
+<h1>...<h6>
+<tutle>
+<li>
+<ul>
+<div>
+<iframe>
+<br>
+<hr>
+<p>
+<a<
+<table>
+<th>
+<td>
+<tr>
+<form>
+<img>
+<marquee>
+<b>
+<span>
+<label>
+<button><nav>
+
+
+
+
+
+
+
+
+
+* app folder we need to creare templates folder
+
+* data disply ..>html..>{{}}
+
+
+

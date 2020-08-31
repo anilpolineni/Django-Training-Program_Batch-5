@@ -1,0 +1,72 @@
+Goodmorning to all(Day4):
+=========================
+
+..>sublime,Atom,vs,Pycharm..etc
+
+-->project creation:
+		django-admin startproject projectname
+		-->it generates 2 different files
+			1..>Movies:
+				..it completes admin part
+				__init__.py::packages
+				settings.py: project handle,apps
+				urls.py: mapping urls 
+				wsgi.py:for deploying purpose
+
+			2..>manage.py:
+			.......>main heart
+			.......>this file working as interface b/w django project and cmd prompt
+			.......>open shell
+			.......>app creation purpose
+			.......>database connections execution
+			.......>project run server in local
+
+		-->run projet
+		 python manage.py runserver
+
+-->app creation:
+
+	-->python manage.py startapp appname
+				or
+	   django-admin startapp appname
+
+
+	* migrations: db connections
+	* init.py :packages
+	* admin.py: accessiing tables data
+	* apps.py:application information
+	* models.py: tables in the formation of classes
+	* tset.py:for testing purpose
+	* views.py: logics
+
+
+
+
+* register our app in setings.py
+-->urlmapping(static/dynamic):
+
+
+static urlmaping:
+-----------------
+localhost:8000/home
+op:welcome Apssdc
+
+dynamic urlmapping:
+--------------------
+localhost:8000/home/satheesh(rajesh)
+op:welcome satheesh
+
+Task:
+=====
+url :localhost:8000/table/4
+
+4*1=4
+.....
+4*10=40
+
+
+
+
+
+
+-->Httprequests and HttpResponses

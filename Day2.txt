@@ -1,0 +1,7 @@
+Goodmorning to all(day2):
+==========================
+
+1)Django installation
+2)oops concepts(2days)&modules and packages
+3)project creation
+4)app creation

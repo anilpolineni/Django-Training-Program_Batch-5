@@ -1,0 +1,8 @@
+Good morning to all(Day7):
+==========================
+
+* navbar
+
+* models
+
+* Django Admin
