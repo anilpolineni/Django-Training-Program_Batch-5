@@ -76,3 +76,13 @@ _____
 
 > **_NOTE:_** Videos are Expired after Two Days
 [Recorded video link](https://transcripts.gotomeeting.com/#/s/d824a55eddec4211cbc9427374538b4d6e5453d925ea985d9cb308615f3ccce9)
+
+_____
+### Day8(1-sep-2020)
+##### Day7 Content:
+
+- 1.ORM
+- 2.Model Quaries using djanago shell
+
+> **_NOTE:_** Videos are Expired after Two Days
+[Recorded video link](https://transcripts.gotomeeting.com/#/s/bd81b531c6b5526d819127d82b335737384fbf91ed4caf25a59b9f50a5de18d6)
