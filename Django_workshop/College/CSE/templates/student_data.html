@@ -1,0 +1,26 @@
+{% extends 'index.html' %}
+{% block foo %}
+<div class="container">
+<table class="table table-bordered">
+    <thead >
+        <th>Name of the student </th>
+        <th> Email Id </th>
+        <th> Phone Number </th>
+        <th> Age </th>
+    <th>Operations</th>
+    </thead>
+    <tbody>
+    {% for i in data %}
+    <tr>
+    <td>{{ i.student_name }}</td>
+    <td>{{ i.email }}</td>
+    <td>{{ i.phone_num }}</td>
+    <td>{{ i.age }}</td>
+        <td><button name="edit" type="submit" class="btn btn-info">Edit</button>
+        <button name="delete" type="submit" class="btn btn-warning">Delete</button></td>
+    </tr>
+{% endfor %}
+    </tbody>
+</div>
+</table>
+{% endblock %}

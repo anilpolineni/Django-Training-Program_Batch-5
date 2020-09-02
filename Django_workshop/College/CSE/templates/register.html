@@ -1,0 +1,17 @@
+
+{% extends 'index.html' %}
+
+{% block foo %}
+
+<form class="form-signin" style="text-align: center;" action="{% url 'register' %}" method="post">
+    {% csrf_token %}
+      <h1 class="h3 mb-3 font-weight-normal">Sign Up</h1>
+
+      <input type="text"  class="form-control" placeholder="Name" name="name"><br>
+
+      <input type="email" class="form-control" placeholder="Email address" name="email"><br>
+      <input type="text" class="form-control" placeholder="Phone number" name="phone_num"><br>
+    <input type="text" class="form-control" placeholder="age" name="age"><br>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+</form>
+{% endblock %}

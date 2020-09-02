@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  		<a class="navbar-brand" href="#">College</a>
+  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    		<ul class="navbar-nav mr-auto">
+      			<li class="nav-item active">
+        			<a class="nav-link" href="{% url 'student_details' %}">About<span class="sr-only"></span></a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="#">Management</a>
+      			</li>
+      			<li class="nav-item dropdown">
+        			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          			Departments
+        			</a>
+        			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          				<a class="dropdown-item" href="{% url 'testing' %}">CSE</a>
+          				<a class="dropdown-item" href="#">ECE</a>
+          			<div class="dropdown-divider"></div>
+          			<a class="dropdown-item" href="#">Mech</a>
+        			</div>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="#">Academics</a>
+      			</li>
+    		</ul>
+            <a href="{% url 'register' %}">
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">SinUp</button>
+            </a>
+
+    		<form class="form-inline my-2 my-lg-0">
+      			<button class="btn btn-outline-primary my-2 my-sm-0" onclick="document.getElementByID('signin').style.display='block'" type="submit">Login</button>
+    		</form>
+  		</div>
+	</nav>
