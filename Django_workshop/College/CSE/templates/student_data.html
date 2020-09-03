@@ -16,8 +16,9 @@
     <td>{{ i.email }}</td>
     <td>{{ i.phone_num }}</td>
     <td>{{ i.age }}</td>
-        <td><button name="edit" type="submit" class="btn btn-info">Edit</button>
-        <button name="delete" type="submit" class="btn btn-warning">Delete</button></td>
+        <td><a href="{% url 'edit' i.id %}" class="btn btn-info" >Edit</a>
+            <a href="{% url 'delete' i.id %}" class="btn btn-danger">Delete</a>
+
     </tr>
 {% endfor %}
     </tbody>

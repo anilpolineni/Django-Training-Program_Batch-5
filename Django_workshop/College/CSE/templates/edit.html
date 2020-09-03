@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% block foo %}
+
+<form class="form-signin" style="text-align: center;" method="post">
+    {% csrf_token %}
+      <h1 class="h3 mb-3 font-weight-normal">Update Details</h1>
+
+    <input type="text"  class="form-control" placeholder="Name" name="name" value="{{ data.student_name }}"><br>
+    <input type="email" class="form-control" placeholder="Email address" name="email" value="{{ data.email }}"><br>
+    <input type="text" class="form-control" placeholder="Phone number" name="phone_num" value="{{ data.phone_num }}"><br>
+    <input type="text" class="form-control" placeholder="age" name="age" value="{{ data.age }}"><br>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Update</button>
+</form>
+{% endblock %}
