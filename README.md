@@ -97,3 +97,8 @@ _____
 
 > **_NOTE:_** Videos are Expired after Two Days
 [Recorded video link](https://transcripts.gotomeeting.com/#/s/9720ccd8c36344f2d4273b81c1a41e6b71d933e1a212e82fecb134608a915809)
+
+### Day10(3-sep-2020)
+##### Day10 Content:
+
+
