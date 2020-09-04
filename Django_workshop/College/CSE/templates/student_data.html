@@ -1,6 +1,12 @@
 {% extends 'index.html' %}
 {% block foo %}
 <div class="container">
+    {% for message in messages %}
+    <div class="alert alert-{{message.tags}} alert-dismissible">
+        <a href="#" class="close" data-dismiss="alert" aria-label="Close" aria-hidden="true">&times;</a>
+        <strong>{{ message }}</strong>
+    </div>
+    {% endfor %}
 <table class="table table-bordered">
     <thead >
         <th>Name of the student </th>

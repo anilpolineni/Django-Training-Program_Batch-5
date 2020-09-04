@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
-from .models import CseStudentRegister
+from .models import CseStudentRegister, Faculty
+from django.contrib import messages
+from .forms import FacultyRegisterForm
 
 
 def home(request):
@@ -24,6 +26,7 @@ def register(request):
         student = CseStudentRegister(student_name=name, phone_num=phone_num,
                                      email=email, age=age)
         student.save()
+        messages.success(request, 'Student added Successfully!!!')
         return redirect('student_details')
     return render(request, 'register.html')
 
@@ -42,6 +45,7 @@ def edit(request, id):
         student.age = request.POST.get('age')
 
         student.save()
+        messages.info(request, 'Student details updated Successfully!!!')
         return redirect('student_details')
     return render(request, 'edit.html', {'data': student})
 
@@ -49,4 +53,28 @@ def edit(request, id):
 def delete(request,id):
     student = CseStudentRegister.objects.get(id=id)
     student.delete()
+    messages.warning(request, 'A Student details deleted!!!')
     return redirect('student_details')
+
+
+def faculty_register(request):
+    form = FacultyRegisterForm()
+    if request.method == 'POST':
+        form_data = FacultyRegisterForm(request.POST)
+        if form_data.is_valid():
+            form_data.save()
+            return HttpResponse('Faculty added successfully!!!')
+        return HttpResponse("invalid details!!")
+    return render(request, 'facultyregister.html', {'form': form})
+
+
+def faculty_edit(request, num):
+    faculty_data = Faculty.objects.get(id=num)
+    form = FacultyRegisterForm(instance=faculty_data)
+    if request.method == "POST":
+        form_data_html = FacultyRegisterForm(request.POST)
+        if form_data_html.is_valid():
+            form_data_html.save()
+            return HttpResponse("details edited successfully!!")
+    return render(request, 'facultyedit.html', {'form': form})
+

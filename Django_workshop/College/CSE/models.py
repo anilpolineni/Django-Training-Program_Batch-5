@@ -15,7 +15,7 @@ class Faculty(models.Model):
     emp_id = models.CharField(max_length=10)
     name = models.CharField(max_length=100)
     email = models.EmailField()
-    phone = models.IntegerField(null=True,blank=True)
+    phone = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
         return self.name
