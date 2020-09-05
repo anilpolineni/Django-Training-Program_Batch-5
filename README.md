@@ -112,3 +112,16 @@ _____
 - forms
 > **_NOTE:_** Videos are Expired after Two Days
 [Recorded video link](https://transcripts.gotomeeting.com/#/s/9fb72bdf49b957c1c4b0974cf574f3077735d83e3b7cecf43bba53fb8de38854)
+
+______
+### Day12(05-sep-2020)
+##### Day12 Content:
+- forms
+- Email sending
+-QR code 
+####### task
+- displaying all registered faculty details 
+- Faculty details deleting 
+- email sending using a attachment
+> **_NOTE:_** Videos are Expired after Two Days
+[Recorded video link](https://transcripts.gotomeeting.com/#/s/94f5397de2d75cd687a8258f14ff5a4b790fb6bb2b21a5c20e1fdd408bfab3cf)
