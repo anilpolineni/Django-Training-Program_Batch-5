@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>qrcodepage</title>
+</head>
+<body>
+<form action="{% url 'qrvalidation' %}" method="POST">
+	{% csrf_token %}
+	<img src="{% static 'qrcodeimage/otp.jpg' %}">
+	
+<input type="text" name="qrno">
+<input type="submit" name="click">
+</form>
+
+</body>
+</html>
