@@ -3,6 +3,8 @@ from django.http import HttpResponse
 from .models import CseStudentRegister, Faculty
 from django.contrib import messages
 from .forms import FacultyRegisterForm
+from College import settings
+from django.core.mail import EmailMessage
 
 
 def home(request):
@@ -26,6 +28,13 @@ def register(request):
         student = CseStudentRegister(student_name=name, phone_num=phone_num,
                                      email=email, age=age)
         student.save()
+        sub = 'Regards Student register'
+        body = 'Hi' + name+',\n We are glad to have you in our platform'
+        send = settings.EMAIL_HOST_USER
+        receiver = email
+        email_msg = EmailMessage(sub, body, send, [receiver])
+        email_msg.send()
+
         messages.success(request, 'Student added Successfully!!!')
         return redirect('student_details')
     return render(request, 'register.html')
@@ -70,11 +79,9 @@ def faculty_register(request):
 
 def faculty_edit(request, num):
     faculty_data = Faculty.objects.get(id=num)
-    form = FacultyRegisterForm(instance=faculty_data)
-    if request.method == "POST":
-        form_data_html = FacultyRegisterForm(request.POST)
-        if form_data_html.is_valid():
-            form_data_html.save()
-            return HttpResponse("details edited successfully!!")
+    form = FacultyRegisterForm(request.POST or None, instance=faculty_data)
+    if form.is_valid():
+        form.save()
+        return HttpResponse("details edited successfully!!")
     return render(request, 'facultyedit.html', {'form': form})
 

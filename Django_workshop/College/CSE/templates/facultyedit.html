@@ -1,6 +1,6 @@
 {% extends 'index.html' %}
 {% block foo %}
-<form class="form-signin" style="text-align: center;" action="{% url 'faculty_register' %}" method="post">
+<form class="form-signin" style="text-align: center;"  method="post">
     {% csrf_token %}
       <h1 class="h3 mb-3 font-weight-normal">Faculty SignUp</h1>
     {{ form.as_p }}
