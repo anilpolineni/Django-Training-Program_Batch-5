@@ -118,8 +118,9 @@ ______
 ##### Day12 Content:
 - forms
 - Email sending
--QR code 
-####### task
+-QR code
+
+###### task
 - displaying all registered faculty details 
 - Faculty details deleting 
 - email sending using a attachment
