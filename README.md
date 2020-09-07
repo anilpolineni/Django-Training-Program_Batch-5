@@ -130,6 +130,6 @@ ______
 ______
 ### Day13(05-sep-2020)
 ##### Day13 Content:
-- 
+- Auth User Registration
 > **_NOTE:_** Videos are Expired after Two Days
 [Recorded video link](https://transcripts.gotomeeting.com/#/s/19be83ab667006abd865d6f8fda9412d46aefadd417cc59fa383782475c2c99c)
