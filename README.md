@@ -126,3 +126,10 @@ ______
 - email sending using a attachment
 > **_NOTE:_** Videos are Expired after Two Days
 [Recorded video link](https://transcripts.gotomeeting.com/#/s/94f5397de2d75cd687a8258f14ff5a4b790fb6bb2b21a5c20e1fdd408bfab3cf)
+
+______
+### Day13(05-sep-2020)
+##### Day13 Content:
+- 
+> **_NOTE:_** Videos are Expired after Two Days
+[Recorded video link](https://transcripts.gotomeeting.com/#/s/19be83ab667006abd865d6f8fda9412d46aefadd417cc59fa383782475c2c99c)
