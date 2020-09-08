@@ -128,8 +128,15 @@ ______
 [Recorded video link](https://transcripts.gotomeeting.com/#/s/94f5397de2d75cd687a8258f14ff5a4b790fb6bb2b21a5c20e1fdd408bfab3cf)
 
 ______
-### Day13(05-sep-2020)
+### Day13(07-sep-2020)
 ##### Day13 Content:
 - Auth User Registration
 > **_NOTE:_** Videos are Expired after Two Days
 [Recorded video link](https://transcripts.gotomeeting.com/#/s/19be83ab667006abd865d6f8fda9412d46aefadd417cc59fa383782475c2c99c)
+
+______
+### Day13(08-sep-2020)
+##### Day13 Content:
+- Auth User Registration
+> **_NOTE:_** Videos are Expired after Two Days
+[Recorded video link](https://transcripts.gotomeeting.com/#/s/3da658cc245c723301d6db6dfb7126aafdd15d648e66873efc8c02c9868c17da)
