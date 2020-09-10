@@ -142,9 +142,17 @@ ______
 [Recorded video link](https://transcripts.gotomeeting.com/#/s/3da658cc245c723301d6db6dfb7126aafdd15d648e66873efc8c02c9868c17da)
 
 ______
-### Day14(09-sep-2020)
-##### Day14 Content:
+### Day15(09-sep-2020)
+##### Day15 Content:
 - User login 
 - change password
 > **_NOTE:_** Videos are Expired after Two Days
 [Recorded video link](https://transcripts.gotomeeting.com/#/s/ccd302a128ce349f5063050f34570b4c6dd6348de87b0bbe88f7a8157901b64a)
+
+______
+### Day16(10-sep-2020)
+##### Day16 Content:
+- edit details  
+- Mysql connections
+> **_NOTE:_** Videos are Expired after Two Days
+[Recorded video link](https://transcripts.gotomeeting.com/#/s/fec7560ff27ebbad6f732184117ddfa980141d324e938320f78696e6df00d9ed)
