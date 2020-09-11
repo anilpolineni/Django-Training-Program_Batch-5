@@ -1,0 +1,67 @@
+{% extends 'accounts/base.html'%}
+
+{% block content%}
+
+{% ifequal error "no"%}
+<script>
+	alert("profile updated successully...!")
+	window.location=('{% url 'userprofile'%}')
+</script>
+{% endifequal%}
+{% ifequal error "yes"%}
+<script>
+	alert("profile not updated...!")
+</script>
+{% endifequal%}
+<div class="container-fluid card col-md-4 mt-5" style="background-color: lightgreen">
+	<h1 class="text-center">EditProfile</h1>
+
+	<form action="#" method="POST" enctype="multipart/form-data">
+		{% csrf_token %}
+		<b><div class="form-group ">
+			<label for="fname">FirstName:</label>
+			<input type="text" class="form-control" name="first_name" placeholder="Enter Fname" id="fname" value="{{user.first_name}}">
+		</div>
+
+		<div class="form-group">
+			<label for="lname">LastName:</label>
+			<input type="text" class="form-control" name="last_name" placeholder="Enter Lname" id="lname" value="{{user.last_name}}">
+		</div>
+
+		<div class="form-group">
+			<label for="uname">UserName:</label>
+			<input type="text" class="form-control" name="username" 
+			placeholder="Enter username" id="uname" value="{{user.username}}" readonly>
+		</div>
+		<div class="form-group">
+			<label for="email">Eamil:</label>
+			<input type="email" class="form-control" name="email" 
+			placeholder="Enter Email" id="email" value="{{user.email}}" readonly>
+		</div>
+
+		<div class="form-group">
+			<label for="image">Image:</label>
+			<img src="{{pro.image.url}}" style="height: 5rem; width: 5rem;">
+			<input type="file" class="form-control" name="img" 
+			placeholder="Upload Image" id="image">
+		</div>
+
+		<div class="form-group">
+			<label for="image">Mobileno:</label>
+			<input type="text" class="form-control" name="mobileno" 
+			placeholder="Mobileno" id="image" value="{{pro.mobileno}}">
+		</div>
+		<div class="form-group">
+			<label for="image">Dob:</label>
+			<input type="date" class="form-control" name="dob" 
+			placeholder="enter date" id="image" value="{{pro.dob|date:'Y-m-d'}}">
+			</div></b>
+
+		<div class="text-center">
+			<input type="submit" value="Update" class="btn btn-outline-info btn-lg mb-3">
+		</div>
+	</form>
+</div>
+
+
+{% endblock %}

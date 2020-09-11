@@ -1,0 +1,37 @@
+{% extends 'accounts/base.html'%}
+
+{% block content%}
+
+{% ifequal error "no"%}
+<script>
+	alert("Logged Successfully..!");
+	window.location=('{% url 'home' %}');
+</script>
+{% endifequal%}
+
+{% ifequal error "yes"%}
+<script>
+	alert("invalid username or password")
+</script>
+{% endifequal %}
+
+<div class="container-fluid card col-md-4 mt-5" style="background-color: lightgreen">
+	<h1 class="text-center">LoginForm</h1>
+
+	<form action="#" method="POST">
+		{% csrf_token %}
+		<b><div class="form-group ">
+			<label for="uname">Username:</label>
+			<input type="text" class="form-control" name="uname" placeholder="Enter usernae" id="uname" required="true">
+		</div>
+		<div class="form-group ">
+			<label for="password">password:</label>
+			<input type="password" class="form-control" name="pwd" placeholder="Enter password" id="password" required="true">
+		</div></b>
+		<div class="text-center">
+			<input type="submit" value="Login" class="btn btn-outline-info btn-lg mb-3">
+		</div>
+	</form>
+</div>
+
+{% endblock%}

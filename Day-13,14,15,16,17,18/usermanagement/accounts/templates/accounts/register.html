@@ -1,0 +1,72 @@
+{% extends 'accounts/base.html'%}
+{% block content%}
+
+{% ifequal error "no"%}
+<script>
+	alert("Registred Successfully..!");
+	window.location=('{% url 'signin' %}');
+</script>
+{% endifequal%}
+
+{% ifequal error "yes"%}
+<script>
+	alert("Something went wrong..! Please tryagain?")
+</script>
+{% endifequal %}
+
+
+<div class="container-fluid card col-md-4 mt-5" style="background-color: lightgreen">
+	<h1 class="text-center">RegistrationForm</h1>
+
+	<form action="#" method="POST" enctype="multipart/form-data">
+		{% csrf_token %}
+		<b><div class="form-group ">
+			<label for="fname">FirstName:</label>
+			<input type="text" class="form-control" name="first_name" placeholder="Enter Fname" id="fname" required="true">
+		</div>
+
+		<div class="form-group">
+			<label for="lname">LastName:</label>
+			<input type="text" class="form-control" name="last_name" placeholder="Enter Lname" id="lname" required="true">
+		</div>
+
+		<div class="form-group">
+			<label for="uname">UserName:</label>
+			<input type="text" class="form-control" name="username" 
+			placeholder="Enter username" id="uname" required="true">
+		</div>
+		<div class="form-group">
+			<label for="email">Eamil:</label>
+			<input type="email" class="form-control" name="email" 
+			placeholder="Enter Email" id="email" required="true">
+		</div>
+
+		<div class="form-group">
+			<label for="image">Image:</label>
+			<input type="file" class="form-control" name="img" 
+			placeholder="Upload Image" id="image" required="true">
+		</div>
+
+
+		<div class="form-group">
+			<label for="pwd">Password:</label>
+			<input type="password" class="form-control" name="pswd" 
+			placeholder="EnterPassword" id="pwd" required="true">
+		</div>
+		<!-- <div class="form-group">
+			<label for="image">Mobileno:</label>
+			<input type="text" class="form-control" name="mobileno" 
+			placeholder="Mobileno" id="image" required="true">
+		</div>
+		<div class="form-group">
+			<label for="image">Dob:</label>
+			<input type="date" class="form-control" name="dob" 
+			placeholder="enter date" id="image" required="true">
+			</div> --></b>
+
+		<div class="text-center">
+			<input type="submit" value="Register" class="btn btn-outline-primary btn-lg mb-3">
+		</div>
+	</form>
+</div>
+{% endblock%}
