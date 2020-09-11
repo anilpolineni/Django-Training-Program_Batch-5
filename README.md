@@ -156,3 +156,11 @@ ______
 - Mysql connections
 > **_NOTE:_** Videos are Expired after Two Days
 [Recorded video link](https://transcripts.gotomeeting.com/#/s/fec7560ff27ebbad6f732184117ddfa980141d324e938320f78696e6df00d9ed)
+
+______
+### Day17(11-sep-2020)
+##### Day11 Content:
+- Project deployment 
+
+> **_NOTE:_** Videos are Expired after Two Days
+[Recorded video link](https://transcripts.gotomeeting.com/#/s/1047afb3bfc7c08e8325fbb1e3dd3be0aeac5c27f6fe22564968d51d7c552b4f)
